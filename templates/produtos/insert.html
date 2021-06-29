@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Adicionar Novo Produto</h1>
+                    </div>
+
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <div class="alert alert-warning" role="alert">
+                                  {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form action="{{ url_for('produto.inserirProduto') }}" method="post">
+                        <label for="nome" class="visually-hidden">Nome:</label>
+                        <input type="text" name=nome id="nome" class="form-control" placeholder="Nome do Produto" required autofocus>
+
+                        <label for="quantidade" class="visually-hidden">Quantidade:</label>
+                        <input type="number" name=quantidade id="quantidade" class="form-control" placeholder="Quantidade" required>
+
+                        <label for="preco" class="visually-hidden">preço:</label>
+                        <input type="text" data-type="currency" name=preco id="preco" class="form-control" placeholder="Preço" required>
+
+                        <label for="categoria" class="visually-hidden">Categoria</label>
+                        <select class="form-select" name="categoria" id="categoria">
+                            <option value="Placeholder" selected disabled>Selecione uma categoria</option>
+                            <option value="Informática">Informática</option>
+                            <option value="Papelaria">Papelaria</option>
+                            <option value="Manutencao">Manutenção</option>
+                        </select>
+                        <br>
+                        <label for="estoque" class="visually-hidden">Estoque</label>
+                        <select class="form-select" name="estoque" id="estoque">
+                            <option value="Placeholder" selected disabled>Selecione uma Estoque</option>
+                            <option value="ada">predio Ada Lovelace</option>
+                            <option value="einstein">predio Albert Einstein</option>
+                            <option value="iam">predio Iam Murdock</option>
+                            <option value="turing">predio Alan Turing</option>
+                        </select>
+
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Adicionar</button>
+                    </form>
+                </main>
+            </div>
+        </div>
+{% endblock %}

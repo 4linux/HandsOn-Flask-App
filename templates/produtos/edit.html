@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+        <div class="container-fluid">
+            <div class="row">
+
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Alterar Produto</h1>
+                    </div>
+
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <div class="alert alert-success" role="alert">
+                                  {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form action="{{ url_for('produto.editarProduto') }}" method="post">
+                        <input type="hidden" name="idproduto" value="{{ produto[0]['_id'] }}" id="idproduto" class="form-control" placeholder="Id do Produto" required>
+
+                        <label for="nome" class="visually-hidden">Nome:</label>
+                        <input type="text" name="nome" value="{{ produto[0]['produto'] }}" id="nome" class="form-control" placeholder="Nome do Produto" required autofocus>
+                        
+                        <label for="quantidade" class="visually-hidden">Quantidade:</label>
+                        <input type="number" name="quantidade" value="{{ produto[0]['quantidade'] }}" id="quantidade" class="form-control" placeholder="Quantidade" required>
+
+                        <label for="nome" class="visually-hidden">Preco:</label>
+                        <input type="text" data-type="currency" name="preco" value="{{ produto[0]['preco'] }}" id="preco" class="form-control" placeholder="Nome do Produto" required autofocus>
+                        
+                        <label for="categoria" class="visually-hidden">Categoria</label>
+                        <select class="form-select" name="categoria" id="categoria">
+                            <option value="Placeholder" selected disabled>Selecione uma categoria</option>
+                            <option value="Informática">Informática</option>
+                            <option value="Telefonia">Papelaria</option>
+                        </select>
+                        <br>
+                        <label for="estoque" class="visually-hidden">Estoque</label>
+                        <select class="form-select" name="estoque" id="estoque">
+                            <option value="Placeholder" selected disabled>Selecione uma Estoque</option>
+                            {% for estoque in estoques %}
+                            <option value="{{ estoque }}">{{ estoque }}</option>
+                            {% endfor %}
+                        </select>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Salvar</button>
+                    </form>
+                </main>
+            </div>
+        </div>
+{% endblock %}

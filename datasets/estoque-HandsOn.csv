@@ -1,0 +1,110 @@
+produto,estoque,categoria,quantidade,preco,valor_total
+ALMOFADA PARA CARIMBO AZUL,predio Albert Einstein,papelaria,439,2,878
+APAGADOR DE QUADRO BRANCO,predio Ada Lovelace,papelaria,1705,2.4,4092
+APONTADOR LÁPIS,predio Alan Turing,papelaria,348,0.17,59.16
+BANDEJA PARA PAPEL,predio Iam Murdock,papelaria,254,19.67,4996.18
+BLOCO PARA ANOTAÇOES AUTO-ADESIVO 38 X 50 MM 04 UNID,predio Ada Lovelace,papelaria,2379,2.38,5662.02
+BLOCO PARA ANOTAÇOES AUTO-ADESIVO 76 X 102 MM,predio Ada Lovelace,papelaria,2120,2.36,5003.2
+BORRACHA APAGADORA,predio Ada Lovelace,papelaria,1000,0.32,320
+CADERNO DE PROTOCOLO,predio Ada Lovelace,papelaria,229,6.1,1396.9
+CAIXA COLETORA DE MATERIAL PERFURO-CORTANTE,predio Ada Lovelace,papelaria,352,3.27,1151.04
+CANETA ESFEROGRÁFICA AZUL,predio Ada Lovelace,papelaria,1438,0.42,603.96
+CANETA ESFEROGRÁFICA COR VERMELHA,predio Ada Lovelace,papelaria,513,0.42,215.46
+CANETA ESFEROGRÁFICA PRETA,predio Ada Lovelace,papelaria,1795,0.42,753.9
+CAPAS DE CD’S E DVD’S,predio Ada Lovelace,papelaria,222,2,444
+CARTOLINA AMARELA,predio Ada Lovelace,papelaria,89,0.45,40.05
+CARTOLINA AZUL,predio Alan Turing,papelaria,89,0.41,36.49
+CARTOLINA BRANCA,predio Alan Turing,papelaria,58,0.54,31.32
+CARTUCHO DE TINTA/TONER OKIDATA,predio Alan Turing,papelaria,1,212,212
+CLIPE PARA PAPEL 4/0 CAIXA COM 50 UN,predio Alan Turing,papelaria,217,1.14,247.38
+CLIPE PARA PAPEL 6/0,predio Alan Turing,papelaria,263,1.42,373.46
+CLIPS N 2/0 CAIXA COM 100 UNI,predio Alan Turing,papelaria,398,1.13,449.74
+COLA APLICAÇÃO ACRÍLICO/LOUÇA/VIDRO/COURO E PLÁSTICO,predio Alan Turing,papelaria,250,3.77,942.5
+COLA EM BASTÃO,predio Alan Turing,papelaria,308,0.72,221.76
+COPO DESCARTÁVEL P/ ÁGUA 200ML,predio Alan Turing,papelaria,2924,2.76,8070.24
+COPO DESCARTÁVEL P/CAFÉ 50ML PAC.100-UNID,predio Alan Turing,papelaria,1995,1.25,2493.75
+CORRETIVO FITA,predio Alan Turing,papelaria,47,2.75,129.25
+CORRETIVO LÍQUIDO 18 ML,predio Alan Turing,papelaria,231,0.94,217.14
+DVD - R 8X 47GB DADOS/120MIN,predio Alan Turing,papelaria,501,1.68,841.68
+DVD-RW COM CAIXA ACRÍLICA,predio Alan Turing,papelaria,207,3.91,809.37
+ENVELOPE BRANCO P/ OFICIO MED. 114 X 229 CM,predio Alan Turing,papelaria,1628,0.2,325.6
+ENVELOPE KRAFT OURO 18X25CM,predio Alan Turing,papelaria,120,0.15,18
+ENVELOPE KRAFT OURO 27X36CM,predio Alan Turing,papelaria,1800,0.23,414
+ESTILETE TIPO LÁMINA RETRÁTIL,predio Alan Turing,papelaria,382,0.99,378.18
+ETIQUETA ADESIVA COLANTE,predio Alan Turing,papelaria,300,8.1,2430
+EXTRATOR DE GRAMPO,predio Alan Turing,papelaria,98,0.85,83.3
+EXTRATOR GRAMPO,predio Alan Turing,papelaria,200,0.73,146
+FITA ADESIVA TRANSPARENTE 50X50,predio Alan Turing,papelaria,1701,2.66,4524.66
+FITA ADESIVA TRANSPARENTE ADERENTE MED.12MM X 30M,predio Alan Turing,papelaria,3653,2.21,8078.26
+FITA ADESIVA TRANSPARENTE ADERENTE MED. 45 MM X 50M,predio Alan Turing,papelaria,1327,2.09,2773.43
+FITA DUPLA FACE MULTIUSO,predio Alan Turing,papelaria,62,39.7,2461.4
+GRAFITE 07,predio Alan Turing,papelaria,255,0.4,102
+GRAFITE 09,predio Alan Turing,papelaria,1134,0.4,453.6
+GRAMPEADOR - CAPACIDADE PARA 25 FOLHAS,predio Alan Turing,papelaria,13,11.5,149.5
+GRAMPEADOR CAPACIDADE PARA 50 FOLHAS,predio Alan Turing,papelaria,356,13.5,4806
+GRAMPO PARA GRAMPEADOR 23 X 10MM - CAIXA COM 1000,predio Alan Turing,papelaria,76,10,760
+GRAMPO TRILHO PLÁSTICO PARA 200 FLS,predio Alan Turing,papelaria,155,6.48,1004.4
+GRAMPO TRILHO PLÁSTICO PARA 600 FLS,predio Alan Turing,papelaria,218,8.31,1811.58
+LAPISEIRA 09,predio Alan Turing,papelaria,755,2.2,1661
+LÁPIS PRETO,predio Albert Einstein,papelaria,994,0.29,288.26
+LIGA ELÁSTICA DE BORRACHA,predio Albert Einstein,papelaria,210,1.74,365.4
+LIGA ELÁSTICA DE BORRACHA COR AMARELA,predio Albert Einstein,papelaria,300,1.62,486
+LIVRO ATA,predio Albert Einstein,papelaria,88,5.28,464.64
+LUVA PARA PROCEDIMENTO MÍDIA NUGARD,predio Albert Einstein,papelaria,324,15.59,5051.16
+MARCADOR PERMANENTE PARA CD/DVD - AZUL,predio Albert Einstein,papelaria,25,1.12,28
+MARCA TEXTO,predio Albert Einstein,papelaria,1103,0.83,915.49
+PAPEL A3,predio Albert Einstein,papelaria,183,34,6222
+PAPEL A4 RECICLADO,predio Albert Einstein,papelaria,480,14.45,6936
+PAPEL ALMAÇO PACOTE COM 100,predio Albert Einstein,papelaria,128,7.35,940.8
+PAPEL IMPRESSÃO GRÁFICA - AZUL,predio Albert Einstein,papelaria,78,5.99,467.22
+PAPEL IMPRESSÃO GRÁFICA - BRANCO,predio Albert Einstein,papelaria,9998,15.18,151769.64
+PAPEL IMPRESSÃO GRÁFICA - CELULOSE VEGETAL - GRAMATURA 180G/M族,predio Albert Einstein,papelaria,118,10.8,1274.4
+PAPEL IMPRESSÃO GRÁFICA - ROSA,predio Albert Einstein,papelaria,135,5.21,703.35
+PAPEL IMPRESSÃO TIPO A4 210X297 NA COR BRANCA,predio Albert Einstein,papelaria,4115,12.11,49830.88
+PAPEL MADEIRA PCT COM 250 UNID (KRAFT CELULOSE VEGETAL),predio Albert Einstein,papelaria,265,98.39,26073.35
+PASTA ARQUIVO TIPO AZ LOMBO ESTREITO,predio Albert Einstein,papelaria,1500,6.99,10485
+PASTA ARQUIVO TIPO AZ LOMBO LARGO,predio Albert Einstein,papelaria,1500,7.1,10650
+PASTA CARTOLINA LISA COM TRILHO EM PLÁSTICO,predio Albert Einstein,papelaria,900,0.99,891
+PASTA CARTOLINA LISA PLASTIFICADA COM TRILHO,predio Albert Einstein,papelaria,497,0.99,492.03
+PASTA CATÁLOGO PRETA,predio Iam Murdock,papelaria,167,4.55,759.85
+PASTA EVENTOS PLASTIFICADA COM ABAS 340MM X230MM,predio Iam Murdock,papelaria,1536,1.04,1597.44
+PASTA PLÁSTICA EM L,predio Iam Murdock,papelaria,731,0.46,336.26
+PASTA POLIONDA AZUL 2CM,predio Iam Murdock,papelaria,185,1.66,307.1
+PASTA SANFONADA COM 31 DIVISÓRIAS,predio Iam Murdock,papelaria,31,29.76,922.56
+PEN DRIVE 16GB,predio Iam Murdock,informática,1495,24.55,36702.25
+PERCEVEJO,predio Iam Murdock,papelaria,55,1.24,68.2
+PERFURADOR DE PAPEL 70 FOLHAS,predio Iam Murdock,papelaria,120,82.99,9958.8
+PERFURADOR PAPEL,predio Iam Murdock,papelaria,132,19.87,2622.84
+PERFURADOR PAPEL 25 FOLHAS,predio Iam Murdock,papelaria,162,19.87,3218.94
+PILHA TAMANHO PALITO MODELO AAA,predio Iam Murdock,papelaria,468,3.03,1418.04
+PILHA TAMANHO PEQUENA MODELO AA,predio Iam Murdock,papelaria,230,3.31,761.3
+PINCEL ATÓMICO AZUL,predio Iam Murdock,papelaria,20,0.99,19.8
+PINCEL ATÓMICO PRETO,predio Iam Murdock,papelaria,28,0.99,27.72
+PINCEL ATÓMICO VERMELHO,predio Iam Murdock,papelaria,35,0.99,34.65
+PORTA-CARIMBO,predio Iam Murdock,papelaria,109,9.9,1079.1
+PORTA-LÁPIS/CLIPS/LEMBRETES,predio Iam Murdock,papelaria,70,5.66,396.2
+PRANCHETA TRANSPARENTE PARA DESENHO,predio Iam Murdock,papelaria,102,6.4,652.8
+PRENDEDOR DE PAPEL TIPO BINDER CLIP 25MM CX COM 12,predio Iam Murdock,papelaria,415,2.69,1116.35
+PRENDEDOR DE PAPEL TIPO BINDER CLIP 32MM CX COM 12,predio Iam Murdock,papelaria,430,4.12,1771.6
+RÉGUA COMUM,predio Iam Murdock,papelaria,39,0.82,31.98
+SACO DOCUMENTO CAPACIDADE 40 FOLHAS - COM FUROS,predio Iam Murdock,papelaria,433,0.21,90.93
+SACO PLASTICO PROTETOR DE DOCUMENTO PCT COM 10 UNID.,predio Iam Murdock,papelaria,412,5.99,2467.88
+TESOURA 13CM,predio Iam Murdock,papelaria,199,1.27,252.73
+TESOURA 21CM,predio Alan Turing,papelaria,245,3.14,769.3
+TINTA PARA CARIMBO AZUL,predio Alan Turing,papelaria,351,1.23,431.73
+TONER3400 P/IMPR XEROX PHASER PRETO,predio Alan Turing,informática,1,390,390
+TONER C-407 P/IMPR SAMSUNG AMARELO,predio Alan Turing,informática,1,175.5,175.5
+TONER C-407 P/IMPR SAMSUNG CIANO,predio Alan Turing,informática,1,167.8,167.8
+TONER C-407 P/IMPR SAMSUNG MAGENTA,predio Alan Turing,informática,1,175.5,175.5
+TONER C-407 P/IMPR SAMSUNG PRETO,predio Alan Turing,informática,1,175.5,175.5
+TONER P/IMPR HP 125A LASER CIANO,predio Alan Turing,informática,1,202.5,202.5
+TONER P/IMPR HP125A LASER MAGENTA,predio Alan Turing,informática,1,202.5,202.5
+TONER P/IMPR HP 125A LASER PRETO,predio Alan Turing,informática,1,202.5,202.5
+TONER P/IMPR HP 304A LASER MAGENTA,predio Alan Turing,informática,1,240,240
+TONER P/IMPR HP 304A LASER PRETO,predio Alan Turing,informática,1,240,240
+TONER P/IMPR HP LASER 125A AMARELO,predio Alan Turing,informática,1,202.5,202.5
+TONER P/IMPR HP LASER 304A AMARELO,predio Alan Turing,informática,1,240,240
+TONER P/IMPR HP LASER 304A CIANO,predio Alan Turing,informática,1,240,240
+TONER P/IMPR HP LASER 36A PRETO,predio Alan Turing,informática,1,120,120
+TONER P/IMPR HP LASER 51A PRETO,predio Alan Turing,informática,1,300,300
+TONER XEROX PHASER 6600/WORKCENTRE 6605 P/IMPR XEROX PHASER PRETO,predio Alan Turing,informática,1,390,390

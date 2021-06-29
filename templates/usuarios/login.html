@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Controle de Estoque</title>
+
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/signin.css') }}" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        <main class="form-signin">
+            <form action="/login" method="POST">
+                <a><h1>Hands-on 4linux</h1></a>
+
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-warning" role="alert">
+                              {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+
+                <label for="login" class="visually-hidden">Login</label>
+                <input type="text" name=usuario id="login" class="form-control" placeholder="Login" required autofocus>
+                <label for="senha" class="visually-hidden">Senha</label>
+                <input type="password" name=senha id="senha" class="form-control" placeholder="Senha" required>
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+            </form>
+        </main>
+    </body>
+</html>

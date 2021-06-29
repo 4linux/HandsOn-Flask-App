@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Produtos em Estoque</h1>
+                </div>
+                <div class="table-responsive">
+
+                    {% with messages = get_flashed_messages() %} {% if messages %} {% for message in messages %}
+                    <div class="alert alert-success" role="alert">
+                        {{ message }}
+                    </div>
+                    {% endfor %} {% endif %} {% endwith %}
+
+                    <a href="{{ url_for('produto.inserirProduto') }}" class="btn btn-dark">Adicionar Novo Produto</a>
+                    <table class="table table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th>Produto</th>
+                                <th>Categoria</th>
+                                <th>Estoque</th>
+                                <th>Quantidade</th>
+                                <th>Preço</th>
+                                <th>Valor Total</th>
+                                <th>Editar</th>
+                                <th>Excluir</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for produto in produtos %}
+                            <tr>
+                                <td> {{ produto['produto'] }} </td>
+                                <td> {{ produto['categoria'] }} </td>
+                                <td> {{ produto['estoque'] }} </td>
+                                <td> {{ produto['quantidade'] }} </td>
+                                <td> {{ produto['preco'] }} </td>
+                                <td> {{ produto['valor_total'] }} </td>
+                                <td><a href="{{ url_for('produto.editarProduto', idproduto=produto['_id']) }}">Editar</a></td>
+                                <td><a href="{{ url_for('produto.deletarProduto', idproduto=produto['_id']) }}">Excluir</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+{% endblock %}

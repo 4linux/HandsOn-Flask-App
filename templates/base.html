@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Controle de Estoque</title>
+
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/dashboard.css') }}" rel="stylesheet">    
+    </head>
+    <body>
+        <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="{{ url_for('usuario.main') }}">Hands-On 4Linux</a>
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav px-3">
+                <a class="nav-link" href="{{ url_for('usuario.logout') }}">Logout</a>
+            </div>
+        </header>
+        <!-- navbar  -->
+        <div class="container-fluid">
+            <div class="row">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    <div class="position-sticky pt-3">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('produto.listProdutos') }}">
+                                    <span class="fa fa-shopping-cart"></span> Produtos 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                </main>
+            </div>
+        </div>>
+        {% block content %}
+        {% endblock %}
+
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/feather.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/Chart.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+    </body>
